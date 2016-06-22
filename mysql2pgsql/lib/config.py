@@ -69,14 +69,10 @@ destination:
 #- table3
 #- table4
 
-# if supress_data is true, only the schema definition will be exported/migrated, and not the data
-supress_data: false
-
-# if supress_ddl is true, only the data will be exported/imported, and not the schema
-supress_ddl: false
-
-# if force_truncate is true, forces a table truncate before table loading
-force_truncate: false
+do_data: false
+do_pre: false
+do_post: false
+truncate: false
 
 # if timezone is true, forces to append/convert to UTC tzinfo mysql data
 timezone: false
