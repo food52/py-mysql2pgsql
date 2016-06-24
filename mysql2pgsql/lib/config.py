@@ -69,10 +69,10 @@ destination:
 #- table3
 #- table4
 
+do_create: false
 do_data: false
-do_pre: false
-do_post: false
-truncate: false
+do_index: false
+do_constraint: false
 
 # if timezone is true, forces to append/convert to UTC tzinfo mysql data
 timezone: false
